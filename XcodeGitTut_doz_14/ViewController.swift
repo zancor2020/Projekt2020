@@ -18,7 +18,17 @@ class ViewController: UIViewController {
     
     func createScreen(){
         print("create Buttons")
+        createButtons()
     }
 
+    func createButtons(){
+        let button = UIButton(type: .system) // let preferred over var here
+        button.frame = CGRect(x: 100, y: 100, width: 100, height: 50)
+        button.backgroundColor = UIColor.green
+        button.setTitle("Start", for: UIControl.State.normal)
+        //button.addTarget(self, action:nil, for: UIControl.Event.touchUpInside)
+    self.view.addSubview(button)
+    }
+    
 }
 
