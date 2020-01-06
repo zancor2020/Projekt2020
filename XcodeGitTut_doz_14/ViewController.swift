@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //LOLOLOLO
-        // LOL zurück von haltlos
+        // LOL zurück von haltlos bbb
     }
 
     
