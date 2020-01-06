@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     func createScreen(){
         print("create Buttons")
+        createButtons()
+        createTextfield()
     }
 
     func createButtons(){
