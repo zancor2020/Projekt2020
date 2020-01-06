@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     func createScreen(){
         print("create Buttons")
         createButtons()
+        createTextfield()
     }
 
     func createButtons(){
@@ -30,5 +31,11 @@ class ViewController: UIViewController {
     self.view.addSubview(button)
     }
     
+    func createTextfield(){
+        var textFiled = UITextField(frame: CGRect(x: 20.0, y: 30.0, width: 100.0, height: 33.0))
+        textFiled.backgroundColor = UIColor.red
+        textFiled.borderStyle = UITextField.BorderStyle.line
+        self.view.addSubview(textFiled)
+    }
 }
 
